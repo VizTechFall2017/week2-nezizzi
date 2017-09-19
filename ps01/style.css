@@ -1,10 +1,11 @@
-#circle1{
+.circle1{
     fill: purple
 }
-#circle2{
+
+.circle2{
     fill: rebeccapurple
 }
 
-#circle3{
+.circle3{
     fill: mediumpurple
 }

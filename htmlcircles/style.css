@@ -2,9 +2,13 @@
     fill: purple
 }
 #circle2{
-    fill: green
+    fill: green;
+    stroke-width: 11;
+    stroke: blue;
 }
 
 #circle3{
-    fill: blue
+    fill: blue;
+    stroke-width: 11;
+    stroke: green;
 }
