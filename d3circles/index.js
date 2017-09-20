@@ -32,13 +32,20 @@ var circle1 = indexCard.append('circle')
 
     .on('mouseout',function(d){
         d3.select(this).attr('fill','purple');
-    })
+    });
 
 
 circle1.attr('stroke',"green");
 
-indexCard.append ('circle')
-    .attr('cx',150)
-    .attr('cy',100)
-    .attr('r',50)
-    .attr('fill', 'mediumpurple');
+indexCard.append ('rect')
+    .attr('x',100)
+    .attr('y',150)
+    .attr('width',50)
+    .attr('height',50);
+
+indexCard.append('line')
+    .attr('x1',10)
+    .attr('x2',20)
+    .attr('y1',150)
+    .attr('y2',250)
+    .attr('stroke','purple');
