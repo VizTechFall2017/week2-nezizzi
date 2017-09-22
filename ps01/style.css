@@ -4,6 +4,12 @@ svg{
     height:800px;
 }
 
+.rect{
+    height:25%;
+    width: 25%;
+    fill: green;
+}
+
 .circle1{
     fill: purple
 }
