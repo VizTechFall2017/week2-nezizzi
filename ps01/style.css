@@ -1,3 +1,9 @@
+svg{
+    background: gainsboro;
+    width: 800px;
+    height:800px;
+}
+
 .circle1{
     fill: purple
 }
@@ -9,3 +15,15 @@
 .circle3{
     fill: mediumpurple
 }
+
+#circle1{stroke:yellow;}
+#circle2{stroke:yellow;}
+#circle3{stroke:yellow;}
+#circle4{stroke:yellow;}
+#circle5{stroke:yellow;}
+#circle6{stroke:yellow;}
+#circle7{stroke:yellow;}
+#circle8{stroke:yellow;}
+#circle9{stroke:yellow;}
+#circle10{stroke:yellow;}
+#circle11{stroke:yellow;}
