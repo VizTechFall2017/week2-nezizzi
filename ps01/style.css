@@ -1,26 +1,23 @@
-svg{
-    background: gainsboro;
-    width: 800px;
-    height:800px;
-}
-
 .rect{
     fill: green;
     stroke: purple;
+    stroke-width:1%;
 }
 
 .circleA{
     fill: purple;
-    stroke-width:10%;
+    stroke-width:1%;
 
 }
 
 .circleB{
-    fill: rebeccapurple
+    fill: rebeccapurple;
+    stroke-width:1%;
 }
 
 .circleC{
-    fill: mediumpurple
+    fill: mediumpurple;
+    stroke-width:1%;
 }
 
 #circle1{
@@ -33,25 +30,25 @@ svg{
     stroke:green;
 }
 #circle4{
-    stroke:39805B;
+    stroke: #39805b;
 }
 #circle5{
     stroke:green;
 }
 #circle6{
-    stroke:39805B;
+    stroke: #39805b;
 }
 #circle7{
     stroke:green;
 }
 #circle8{
-    stroke:39805B;
+    stroke:#39805b;
 }
 #circle9{
     stroke:green;
 }
 #circle10{
-    stroke:39805B;
+    stroke:#39805b;
 }
 #circle11{
     stroke:green;
