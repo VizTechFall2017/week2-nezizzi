@@ -22,14 +22,14 @@ for ( i = 0; i < rectnumber; i++){
     var y = -50;
     var center = 1;
         if (center = 1){
-            var BOX= BODY.append('rect');
             //rectA
             x = x +50;
             y= y + 50;
             console.log(x);
-            console.log(y)
-            .attr('x', 'x')
-            .attr('y', 'y')
+            console.log(y);
+            var BOX= BODY.append('rect')
+            .attr('x', x)
+            .attr('y', y)
             .attr('fill', 'green');
             center = center +1;}
         else if (center = 2){
