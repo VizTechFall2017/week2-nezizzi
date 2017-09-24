@@ -4,8 +4,6 @@ var BODY = d3.select('body').append('svg')
     .attr('width',800)
     .attr('height',800);
 
-
-
 var circleA = BODY.append('circle')
     .attr('cx',600)
     .attr('cy',100)
@@ -16,35 +14,43 @@ var circleA = BODY.append('circle')
 
 
 
-rectnumber = 11;
-for ( i = 0; i < rectnumber; i++){
+var center = 1;
+rectnumber_center = 11;
+
+for ( i = 0; i < rectnumber_center; i++){
     var x = 0;
     var y = -50;
-    var center = 1;
+    console.log(center);
         if (center = 1){
             //rectA
             x = x +50;
             y= y + 50;
             console.log(x);
             console.log(y);
-            var BOX= BODY.append('rect')
+            RECT= BODY.append('rect')
             .attr('x', x)
             .attr('y', y)
+            .attr('width',50)
+            .attr('height',50)
             .attr('fill', 'green');
             center = center +1;}
         else if (center = 2){
             //rectB
-            var BOX= BODY.append('rect')
+            RECT= BODY.append('rect')
             .attr('x', x+50)
             .attr('y', y+50)
+            .attr('width',50)
+            .attr('height',50)
             .attr('fill', '#53800c')
             .attr('stroke-width', '1%');
                 center= center+1;}
         else {
         //rectC
-        var BOX = BODY.append('rect')
+            RECT = BODY.append('rect')
             .attr('x', x+50)
             .attr('y', y+50)
+            .attr('width',50)
+            .attr('height',50)
             .attr('fill', '#178067;')
             .attr('stroke-width', '1%');
         center = 1;}
