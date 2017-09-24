@@ -16,10 +16,32 @@ var circleA = BODY.append('circle')
 
 
 
+rectnumber = 11;
+for ( i = 0; i < rectnumber; i++){
+    var x = 0;
+    var y = -50;
+    var center = 1;
+        if (center = 1){
+            var BOX= BODY.append('rect')
+            //rectA
+            .attr('x', 'x+50')
+            .attr('y', 'y+50')
+            .attr('fill', 'green');
+            center = center +1;}
+        else if (center = 2){
+            //rectB
+            var BOX= BODY.append('rect')            .attr('x', 'x+50')
+            .attr('y', 'y+50')
+            .attr('fill', '#53800c')
+            .attr('stroke-width', '1%');
+                center= center+1;}
+        else (center = 3){
+            //rectC
+            var BOX= BODY.append('rect')            .attr('x', 'x+50')
+            .attr('y', 'y+50')
+            .attr('fill', '#178067;')
+            .attr('stroke-width', '1%');
+            center= 1;
+            }
 
-var BOX = BODY.append('rect')
-    .attr('x', 0)
-    .attr('y', 50)
-    .attr('width',50)
-    .attr('height', 50)
-    .attr('fill', 'green');
+        }
