@@ -18,30 +18,33 @@ var circleA = BODY.append('circle')
 
 rectnumber = 11;
 for ( i = 0; i < rectnumber; i++){
-    console.log(clicked);
     var x = 0;
     var y = -50;
     var center = 1;
         if (center = 1){
-            var BOX= BODY.append('rect')
+            var BOX= BODY.append('rect');
             //rectA
-            .attr('x', 'x+50')
-            .attr('y', 'y+50')
+            x = x +50;
+            y= y + 50;
+            console.log(x);
+            console.log(y)
+            .attr('x', 'x')
+            .attr('y', 'y')
             .attr('fill', 'green');
             center = center +1;}
         else if (center = 2){
             //rectB
             var BOX= BODY.append('rect')
-            .attr('x', 'x+50')
-            .attr('y', 'y+50')
+            .attr('x', x+50)
+            .attr('y', y+50)
             .attr('fill', '#53800c')
             .attr('stroke-width', '1%');
                 center= center+1;}
         else {
         //rectC
         var BOX = BODY.append('rect')
-            .attr('x', 'x+50')
-            .attr('y', 'y+50')
+            .attr('x', x+50)
+            .attr('y', y+50)
             .attr('fill', '#178067;')
             .attr('stroke-width', '1%');
         center = 1;}
