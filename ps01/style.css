@@ -1,13 +1,20 @@
-.rect{
+.rectA{
     fill: green;
-    stroke: purple;
+    stroke-width:1%;
+}
+
+.rectB{
+    fill: #53800c;
+    stroke-width:1%;
+}
+.rectC{
+    fill: #178067;
     stroke-width:1%;
 }
 
 .circleA{
     fill: purple;
     stroke-width:2%;
-
 }
 
 .circleB{
