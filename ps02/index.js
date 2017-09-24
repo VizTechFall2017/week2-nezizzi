@@ -6,7 +6,7 @@ var BODY = d3.select('body').append('svg')
 
 
 
-var circle = BODY.append('circle')
+var circleA = BODY.append('circle')
     .attr('cx',600)
     .attr('cy',100)
     .attr('r',60)
@@ -14,7 +14,12 @@ var circle = BODY.append('circle')
     .attr('stroke-width', '2%')
     .attr('stroke', '#0f5a80');
 
-var BOX = BODY.append('rectangle')
-    .attr('x', 150)
-    .attr('y', 0)
-    .attr('width',50);
+
+
+
+var BOX = BODY.append('rect')
+    .attr('x', 0)
+    .attr('y', 50)
+    .attr('width',50)
+    .attr('height', 50)
+    .attr('fill', 'green');
