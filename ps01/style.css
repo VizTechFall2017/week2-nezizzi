@@ -6,13 +6,13 @@
 
 .circleA{
     fill: purple;
-    stroke-width:1%;
+    stroke-width:2%;
 
 }
 
 .circleB{
     fill: rebeccapurple;
-    stroke-width:1%;
+    stroke-width:.5%;
 }
 
 .circleC{
@@ -21,35 +21,35 @@
 }
 
 #circle1{
-    stroke:green;
+    stroke: #0f5a80;
 }
 #circle2{
-    stroke: #39805b;
+    stroke: #188076;
 }
 #circle3{
-    stroke:green;
+    stroke: #0f5a80;
 }
 #circle4{
-    stroke: #39805b;
+    stroke: #188076;
 }
 #circle5{
-    stroke:green;
+    stroke: #0f5a80;
 }
 #circle6{
-    stroke: #39805b;
+    stroke: #188076;
 }
 #circle7{
-    stroke:green;
+    stroke: #0f5a80;
 }
 #circle8{
-    stroke:#39805b;
+    stroke: #188076;
 }
 #circle9{
-    stroke:green;
+    stroke: #0f5a80;
 }
 #circle10{
-    stroke:#39805b;
+    stroke: #188076;
 }
 #circle11{
-    stroke:green;
+    stroke: #0f5a80;
 }
