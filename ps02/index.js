@@ -1,19 +1,7 @@
-//var svg = d3.select('svg');
-
 var BODY = d3.select('body').append('svg')
     .attr('width',800)
     .attr('height',800);
-
-var circleA = BODY.append('circle')
-    .attr('cx',600)
-    .attr('cy',100)
-    .attr('r',60)
-    .attr('fill', 'purple')
-    .attr('stroke-width', '2%')
-    .attr('stroke', '#0f5a80');
-
-
-
+///////////////////////////////    RECTANGLES   /////////////////////////////////
 rectnumber_center = 11;
 var x = 0;
 var y = -50;
@@ -24,6 +12,7 @@ var xl = 0;
 var yl = 50;
 var center = 1;
 
+//CENTER RECT DIAGONAL
 for ( i = 0; i < rectnumber_center; i++) {
        if (center === 1){
             //rectA
@@ -147,3 +136,19 @@ for ( i = 0; i < rectnumber_side+4; i++) {
         center =1;
     }
 }
+
+
+/////////////////////////////////    CIRCLES   /////////////////////////////////
+
+var circle1 = BODY.append('circle')
+    .attr('cx',600)
+    .attr('cy',100)
+    .attr('r',60)
+    .attr('class', "circleA")
+    .attr('id', 'circle1');
+
+
+
+
+
+
