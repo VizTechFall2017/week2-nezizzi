@@ -27,7 +27,6 @@ var center = 1;
 for ( i = 0; i < rectnumber_center; i++) {
        if (center === 1){
             //rectA
-            console.log(center);
            x = x + 50;
            y = y + 50;
            RECT = BODY.append('rect')
@@ -40,7 +39,6 @@ for ( i = 0; i < rectnumber_center; i++) {
        }
        else if (center === 2){
        //rectB
-           console.log(center);
            x = x + 50;
            y = y + 50;
            RECT = BODY.append('rect')
@@ -53,7 +51,6 @@ for ( i = 0; i < rectnumber_center; i++) {
        }
        else{
            //rectC
-           console.log(center);
            x = x + 50;
            y = y + 50;
            RECT = BODY.append('rect')
@@ -70,24 +67,83 @@ for ( i = 0; i < rectnumber_center; i++) {
 
 //RIGHT RECT DIAGONAL
 for ( i = 0; i < rectnumber_side; i++) {
-    xr = xr + 50;
-    yr = yr + 50;
-    RECT = BODY.append('rect')
-        .attr('x', xr)
-        .attr('y', yr)
-        .attr('width', 50)
-        .attr('height', 50)
-        .attr('fill', 'green');
+    if (center === 1){
+        //rectA
+        xr = xr + 50;
+        yr = yr + 50;
+        RECT = BODY.append('rect')
+            .attr('x', xr)
+            .attr('y', yr)
+            .attr('width', 50)
+            .attr('height', 50)
+            .attr('fill', 'green');
+        center = center +1;
+    }
+    else if (center === 2){
+        //rectB
+        xr = xr + 50;
+        yr = yr + 50;
+        RECT = BODY.append('rect')
+            .attr('x', xr)
+            .attr('y', yr)
+            .attr('width', 50)
+            .attr('height', 50)
+            .attr('fill', '#53800c');
+        center = center +1;
+    }
+    else{
+        //rectC
+        xr = xr + 50;
+        yr = yr + 50;
+        RECT = BODY.append('rect')
+            .attr('x', xr)
+            .attr('y', yr)
+            .attr('width', 50)
+            .attr('height', 50)
+            .attr('fill', '#178067');
+        center =1;
+    }
 }
 
 //LEFT RECT DIAGONAL
-for ( i = 0; i < rectnumber_side; i++) {
-    xl = xl + 50;
-    yl = yl + 50;
-    RECT = BODY.append('rect')
-        .attr('x', xl)
-        .attr('y', yl)
-        .attr('width', 50)
-        .attr('height', 50)
-        .attr('fill', 'green');
+for ( i = 0; i < rectnumber_side+4; i++) {
+    if (center === 1){
+        //rectA
+        console.log(center);
+        xl = xl + 50;
+        yl = yl + 50;
+        RECT = BODY.append('rect')
+            .attr('x', xl)
+            .attr('y', yl)
+            .attr('width', 50)
+            .attr('height', 50)
+            .attr('fill', 'green');
+        center = center +1;
+    }
+    else if (center === 2){
+        //rectB
+        console.log(center);
+        x = xl + 50;
+        y = yl + 50;
+        RECT = BODY.append('rect')
+            .attr('x', xl)
+            .attr('y', yl)
+            .attr('width', 50)
+            .attr('height', 50)
+            .attr('fill', '#53800c');
+        center = center +1;
+    }
+    else{
+        //rectC
+        console.log(center);
+        xl = xl + 50;
+        yl = yl + 50;
+        RECT = BODY.append('rect')
+            .attr('x', xl)
+            .attr('y', yl)
+            .attr('width', 50)
+            .attr('height', 50)
+            .attr('fill', '#178067');
+        center =1;
+    }
 }
