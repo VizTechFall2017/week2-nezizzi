@@ -139,13 +139,24 @@ for ( i = 0; i < rectnumber_side+4; i++) {
 
 
 
-var circle1 = BODY.append('circle')
+var c1 = BODY.append('circle')
     .attr('cx',600)
     .attr('cy',100)
     .attr('r',60)
     .attr('class', "circleA")
     .attr('id', 'circle1');
-
+var c2 = BODY.append('circle')
+    .attr('cx',600)
+    .attr('cy',150)
+    .attr('r',40)
+    .attr('class', "circleB")
+    .attr('id', 'circle2');
+var c3 = BODY.append('circle')
+    .attr('cx',650)
+    .attr('cy',100)
+    .attr('r',25)
+    .attr('class', "circleC")
+    .attr('id', 'circle1');
 
 
 d3.selectAll('.circleA')
