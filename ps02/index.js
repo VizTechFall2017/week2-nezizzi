@@ -15,10 +15,10 @@ var circleA = BODY.append('circle')
 
 var center = 1;
 rectnumber_center = 11;
+var x = 0;
+var y = -50;
 
 for ( i = 0; i < rectnumber_center; i++) {
-    var x = 0;
-    var y = -50;
     //rectA
     x = x + 50;
     y = y + 50;
@@ -31,4 +31,3 @@ for ( i = 0; i < rectnumber_center; i++) {
         .attr('height', 50)
         .attr('fill', 'green');
 }
-          
