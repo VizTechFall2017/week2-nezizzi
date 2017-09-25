@@ -17,16 +17,43 @@ var center = 1;
 rectnumber_center = 11;
 var x = 0;
 var y = -50;
+rectnumber_side= 9;
+var xr = 100;
+var yr = -50;
+var xl = 0;
+var yl = 50;
+
 
 for ( i = 0; i < rectnumber_center; i++) {
-    //rectA
     x = x + 50;
     y = y + 50;
-    console.log(x);
-    console.log(y);
     RECT = BODY.append('rect')
         .attr('x', x)
         .attr('y', y)
+        .attr('width', 50)
+        .attr('height', 50)
+        .attr('fill', 'green');
+}
+
+//RIGHT RECT DIAGONAL
+for ( i = 0; i < rectnumber_side; i++) {
+    xr = xr + 50;
+    yr = yr + 50;
+    RECT = BODY.append('rect')
+        .attr('x', xr)
+        .attr('y', yr)
+        .attr('width', 50)
+        .attr('height', 50)
+        .attr('fill', 'green');
+}
+
+//LEFT RECT DIAGONAL
+for ( i = 0; i < rectnumber_side; i++) {
+    xl = xl + 50;
+    yl = yl + 50;
+    RECT = BODY.append('rect')
+        .attr('x', xl)
+        .attr('y', yl)
         .attr('width', 50)
         .attr('height', 50)
         .attr('fill', 'green');
