@@ -145,7 +145,7 @@ var c1 = BODY.append('circle')
     .attr('r',60)
     .attr('class', "circleA")
     .attr('id', 'circle1')
-.attr('stroke-fill', '#0f5a80');
+    .attr('stroke-fill', '#0f5a80');
 var c2 = BODY.append('circle')
     .attr('cx',600)
     .attr('cy',150)
@@ -208,18 +208,6 @@ var c11 = BODY.append('circle')
     .attr('id', 'circle1');
 
 
-
-d3.selectAll('.circleA')
-    .attr('fill', 'purple')
-    .attr('stroke-width', '2%');
-
-d3.selectAll('.circleB')
-    .attr('fill', 'rebeccapurple')
-    .attr('stroke-width', '.5%');
-
-d3.selectAll('.circleC')
-    .attr('fill', 'mediumpurple')
-    .attr('stroke-width', '1%');
 
 
 
