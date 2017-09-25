@@ -209,6 +209,18 @@ var c11 = BODY.append('circle')
 
 
 
+d3.selectAll('.circleA')
+    .attr('fill', 'purple')
+    .attr('stroke-width', '2%');
+
+d3.selectAll('.circleB')
+    .attr('fill', 'rebeccapurple')
+    .attr('stroke-width', '.5%');
+
+d3.selectAll('.circleC')
+    .attr('fill', 'mediumpurple')
+    .attr('stroke-width', '1%');
+
 
 
 
