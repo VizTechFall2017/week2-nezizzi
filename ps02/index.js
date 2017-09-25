@@ -22,10 +22,9 @@ var xr = 100;
 var yr = -50;
 var xl = 0;
 var yl = 50;
-
+var center = 1;
 
 for ( i = 0; i < rectnumber_center; i++) {
-    var center = 1;
        if (center === 1){
             //rectA
             console.log(center);
@@ -42,28 +41,28 @@ for ( i = 0; i < rectnumber_center; i++) {
        else if (center === 2){
        //rectB
            console.log(center);
-           //x = x + 50;
-           //y = y + 50;
-           //RECT = BODY.append('rect')
-           //    .attr('x', x)
-           //    .attr('y', y)
-           //    .attr('width', 50)
-           //    .attr('height', 50)
-           //.attr('fill', '#53800c');
-           //center = center +1;
+           x = x + 50;
+           y = y + 50;
+           RECT = BODY.append('rect')
+               .attr('x', x)
+               .attr('y', y)
+               .attr('width', 50)
+              .attr('height', 50)
+           .attr('fill', '#53800c');
+           center = center +1;
        }
        else{
            //rectC
            console.log(center);
-          // x = x + 50;
-          // y = y + 50;
-           //RECT = BODY.append('rect')
-           //    .attr('x', x)
-           //    .attr('y', y)
-           //    .attr('width', 50)
-           //    .attr('height', 50)
-          // .attr('fill', '#178067');
-          // center =1;
+           x = x + 50;
+           y = y + 50;
+           RECT = BODY.append('rect')
+               .attr('x', x)
+               .attr('y', y)
+               .attr('width', 50)
+               .attr('height', 50)
+           .attr('fill', '#178067');
+           center =1;
        }
 
 
