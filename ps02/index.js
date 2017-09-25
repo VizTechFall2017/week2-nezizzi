@@ -144,14 +144,13 @@ var c1 = BODY.append('circle')
     .attr('cy',100)
     .attr('r',60)
     .attr('class', "circleA")
-    .attr('id', 'circle1')
-    .attr('stroke-fill', '#0f5a80');
+    .attr('stroke', '#0f5a80');
 var c2 = BODY.append('circle')
     .attr('cx',600)
     .attr('cy',150)
     .attr('r',40)
-    .attr('class', "circleB")
-    .attr('id', 'circle2');
+    .attr('class', "circleB");
+
 var c3 = BODY.append('circle')
     .attr('cx',650)
     .attr('cy',100)
@@ -162,50 +161,49 @@ var c4 = BODY.append('circle')
     .attr('cx',450)
     .attr('cy',200)
     .attr('r',60)
-    .attr('class', "circleA")
-    .attr('id', 'circle1');
+    .attr('class', "circleA");
+
 var c5 = BODY.append('circle')
     .attr('cx',450)
     .attr('cy',250)
     .attr('r',40)
-    .attr('class', "circleB")
-    .attr('id', 'circle1');
+    .attr('class', "circleB");
+
 var c6 = BODY.append('circle')
     .attr('cx',400)
     .attr('cy',200)
     .attr('r',35)
-    .attr('class', "circleC")
-    .attr('id', 'circle1');
+    .attr('class', "circleC");
+
 var c7 = BODY.append('circle')
     .attr('cx',300)
     .attr('cy',300)
     .attr('r',80)
-    .attr('class', "circleA")
-    .attr('id', 'circle1');
+    .attr('class', "circleA";
+
 var c8 = BODY.append('circle')
     .attr('cx',250)
     .attr('cy',250)
     .attr('r',50)
-    .attr('class', "circleB")
-    .attr('id', 'circle1');
+    .attr('class', "circleB");
+
 var c9 = BODY.append('circle')
     .attr('cx',100)
     .attr('cy',450)
     .attr('r',50)
-    .attr('class', "circleC")
-    .attr('id', 'circle1');
+    .attr('class', "circleC");
+
 var c10 = BODY.append('circle')
     .attr('cx',150)
     .attr('cy',400)
     .attr('r',50)
-    .attr('class', "circleA")
-    .attr('id', 'circle1');
+    .attr('class', "circleA");
+
 var c11 = BODY.append('circle')
     .attr('cx',100)
     .attr('cy',400)
     .attr('r',50)
-    .attr('class', "circleB")
-    .attr('id', 'circle1');
+    .attr('class', "circleB");
 
 
 
