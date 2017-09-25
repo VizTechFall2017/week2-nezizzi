@@ -49,3 +49,11 @@ indexCard.append('line')
     .attr('y1',150)
     .attr('y2',250)
     .attr('stroke','purple');
+
+
+var c1 = BODY.append('circle')
+    .attr('cx',600)
+    .attr('cy',100)
+    .attr('r',60)
+    .attr('class', "circleA")
+    .attr('stroke', '#0f5a80');
