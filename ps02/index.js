@@ -98,7 +98,6 @@ for ( i = 0; i < rectnumber_side; i++) {
 for ( i = 0; i < rectnumber_side+4; i++) {
     if (center === 1){
         //rectA
-        console.log(center);
         xl = xl + 50;
         yl = yl + 50;
         RECT = BODY.append('rect')
@@ -111,7 +110,6 @@ for ( i = 0; i < rectnumber_side+4; i++) {
     }
     else if (center === 2){
         //rectB
-        console.log(center);
         x = xl + 50;
         y = yl + 50;
         RECT = BODY.append('rect')
@@ -124,7 +122,6 @@ for ( i = 0; i < rectnumber_side+4; i++) {
     }
     else{
         //rectC
-        console.log(center);
         xl = xl + 50;
         yl = yl + 50;
         RECT = BODY.append('rect')
@@ -140,6 +137,8 @@ for ( i = 0; i < rectnumber_side+4; i++) {
 
 /////////////////////////////////    CIRCLES   /////////////////////////////////
 
+
+
 var circle1 = BODY.append('circle')
     .attr('cx',600)
     .attr('cy',100)
@@ -149,6 +148,20 @@ var circle1 = BODY.append('circle')
 
 
 
+d3.selectAll('.circleA')
+    .attr('fill', 'purple')
+    .attr('stroke-width', '2%');
+
+d3.selectAll('.circleB')
+    .attr('fill', 'rebeccapurple')
+    .attr('stroke-width', '.5%');
+
+d3.selectAll('.circleC')
+    .attr('fill', 'mediumpurple')
+    .attr('stroke-width', '1%');
+
+d3.selectAll('#circle1')
+    .attr('stroke-fill', '#0f5a80');
 
 
 
